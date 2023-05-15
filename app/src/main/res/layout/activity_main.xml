@@ -19,12 +19,13 @@
         android:layout_marginTop="100dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Nhap ten cua ban"/>
+        android:textSize="22dp"
+        android:hint="Nhập tên của bạn"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Ban dang hoc he nao?"/>
+        android:text="Bạn đang học hệ nào?"/>
 
     <RadioGroup
         android:layout_width="match_parent"
@@ -35,18 +36,18 @@
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Cao dang"/>
+            android:text="Cao đăng"/>
 
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Pho cao"/>
+            android:text="Phổ cao"/>
     </RadioGroup>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Ban thich ngon ngu nao"/>
+        android:text="Bạn thích ngôn ngữ nao?"/>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -85,6 +86,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/tv_result"
-        android:textSize="25sp"
+        android:textSize="25dp"
         android:textColor="@android:color/holo_red_dark"/>
 </LinearLayout>
