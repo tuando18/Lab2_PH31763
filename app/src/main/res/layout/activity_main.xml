@@ -69,7 +69,10 @@
             android:layout_height="wrap_content"
             android:text="Javascript"/>
     </LinearLayout>
-
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="20dp">
     <Button
         android:id="@+id/btn_click"
         android:layout_width="wrap_content"
@@ -80,8 +83,9 @@
         android:id="@+id/btn_bai23"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
         android:text="Bài 2 và 3" />
-
+    </LinearLayout>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
